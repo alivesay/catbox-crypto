@@ -11,6 +11,7 @@ Extends any `catbox` caching engine to automatically encrypt values stored in th
   - `algorithm` - cipher algorithm to use
     - Default: `'aes-128-cbc'`
     - see `$ openssl list-public-key-algorithms` for list of supported algorithms
+  - `keySize` - cipher key size in bytes
   - `ivSize` - cipher initialization vector size in bytes
     - Default: `16`
   - `engine` - is a string, object, or function detailing the [catbox](https://github.com/spumko/catbox) cache strategy to extend
@@ -25,7 +26,8 @@ var Catbox = require('catbox');
 
 var options = {
   algorithm: 'aes-256-cbc',
-  ivSize: 32,
+  keySize: 32,
+  ivSize: 16,
   engine: 'catbox-memory',
   engineOptions: {
     maxByteSize: 209715200
