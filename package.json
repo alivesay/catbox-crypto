@@ -1,0 +1,36 @@
+{
+  "name": "catbox-crypto",
+  "version": "1.0.0",
+  "author": "Andrew Livesay <andrew.livesay@gmail.com>",
+  "private": true,
+  "repository": "https://github.com/alivesay/catbox-crypto",
+  "main": "index",
+  "keywords": [
+    "catbox",
+    "cache",
+    "crypto"
+  ],
+  "engines": {
+    "node": ">=0.10.26"
+  },
+  "dependencies": {
+    "hoek": "1.x.x",
+    "random-enough": "1.x.x"
+  },
+  "peerDependencies": {
+    "catbox": "2.x.x",
+    "catbox-memory": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/alivesay/catbox-crypto/master/LICENSE"
+    }
+  ]
+}
