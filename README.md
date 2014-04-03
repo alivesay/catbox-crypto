@@ -12,6 +12,7 @@ Extends any `catbox` caching engine to automatically encrypt values stored in th
     - Default: `'aes-128-cbc'`
     - see `$ openssl list-public-key-algorithms` for list of supported algorithms
   - `keySize` - cipher key size in bytes
+    - Default: `16`
   - `ivSize` - cipher initialization vector size in bytes
     - Default: `16`
   - `engine` - is a string, object, or function detailing the [catbox](https://github.com/spumko/catbox) cache strategy to extend

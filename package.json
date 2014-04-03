@@ -1,7 +1,7 @@
 {
   "name": "catbox-crypto",
   "description": "Ephemeral encryption layer for catbox cache strategy engines.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Andrew Livesay <andrew.livesay@gmail.com>",
   "repository": "https://github.com/alivesay/catbox-crypto",
   "main": "index",
