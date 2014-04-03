@@ -2,7 +2,6 @@
   "name": "catbox-crypto",
   "version": "1.0.0",
   "author": "Andrew Livesay <andrew.livesay@gmail.com>",
-  "private": true,
   "repository": "https://github.com/alivesay/catbox-crypto",
   "main": "index",
   "keywords": [
