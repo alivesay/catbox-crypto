@@ -35,7 +35,7 @@ var options = {
   }
 };
 
-var client = new Catbox.Client('catbox-crypto', options);
+var client = new Catbox.Client(require('catbox-crypto'), options);
 
 var key = { 
   segment: 'test',
