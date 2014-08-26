@@ -7,7 +7,7 @@ Extends any `catbox` caching engine to automatically encrypt values stored in th
 
 ### Options
 
-- `options` - a object with the following keys:
+- `options` - an object with the following keys:
   - `algorithm` - cipher algorithm to use
     - Default: `'aes-128-cbc'`
     - see `$ openssl list-public-key-algorithms` for list of supported algorithms
@@ -15,8 +15,8 @@ Extends any `catbox` caching engine to automatically encrypt values stored in th
     - Default: `16`
   - `ivSize` - cipher initialization vector size in bytes
     - Default: `16`
-  - `engine` - is a string, object, or function detailing the [catbox](https://github.com/spumko/catbox) cache strategy to extend
-    -  Default: `'catbox-memory'` 
+  - `engine` - is an object, or function detailing the [catbox](https://github.com/spumko/catbox) cache strategy to extend
+    -  Default: `result of require('catbox-memory')` 
     - see [catbox](https://github.com/spumko/catbox) [documentation](https://github.com/spumko/catbox/blob/master/README.md#client)
   - `engineOptions` - the cache strategy configuration object
     - see [catbox](https://github.com/spumko/catbox) [documentation](https://github.com/spumko/catbox/blob/master/README.md#client)
